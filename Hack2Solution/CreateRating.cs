@@ -50,7 +50,7 @@ namespace Hack2Solution
 
         private static bool IfRatingIsValid(int rating)
         {
-            if (rating > 0 && rating < 5)
+            if (rating > 0 && rating <= 5)
                 return true;
 
             return false;
